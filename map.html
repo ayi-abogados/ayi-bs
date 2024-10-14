@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Contact - Ayi | ABOGADOS</title>
+    <title>Mapa del Sitio - Ayi | ABOGADOS</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -47,7 +47,7 @@
   ======================================================== -->
   </head>
 
-  <body class="contact-page">
+  <body class="testimonials-page">
     <header id="header" class="header sticky-top">
       <div class="topbar d-flex align-items-center light-background">
         <div
@@ -74,7 +74,6 @@
       <!-- End Top Bar -->
 
       <div class="branding d-flex align-items-cente">
-        <
         <div
           class="container position-relative d-flex align-items-center justify-content-between"
         >
@@ -96,10 +95,12 @@
               </li>
               <li><a href="about.html">Acerca</a></li>
               <li><a href="services.html">Servicios</a></li>
-              <li><a href="testimonials.html">Testimonios</a></li>
+              <li>
+                <a href="testimonials.html">Testimonios</a>
+              </li>
               <li><a href="faqs.html">FAQs</a></li>
-              <li><a href="map.html">Mapa</a></li>
-              <!--
+              <li><a href="map.html" class="active">Mapa</a></li>
+              <!-- 
             <li><a href="pricing.html">Pricing</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="blog.html">Blog</a></li>
@@ -119,8 +120,8 @@
                 <li><a href="#">Dropdown 3</a></li>
                 <li><a href="#">Dropdown 4</a></li>
               </ul>
-            </li>-->
-              <li><a href="contact.html" class="active">Contacto</a></li>
+            </li> -->
+              <li><a href="contact.html">Contacto</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
           </nav>
@@ -194,142 +195,214 @@
       </div>
     </div>
 
+    <hr class="red-line" />
+
+    <!-- Acordeón Bootstrap -->
     <main class="main">
-      <!-- Page Title
-    <div class="page-title dark-background">
-      <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Contact</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Contact</li>
-          </ol>
-        </nav>
-      </div>
-    </div> End Page Title -->
-
-      <hr class="red-line" />
-
-      <!-- Contact Section -->
-      <section id="contact" class="contact section">
-        <div class="mb-5">
-          <iframe
-            style="width: 100%; height: 400px"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.6809513267947!2d1.2492231158365337!3d41.11719137445396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a283c12345678f%3A0x9e4d147c12d22e1!2sPla%C3%A7a%20de%20la%20Font%2C%201%2C%2043003%20Tarragona%2C%20Espa%C3%B1a!5e0!3m2!1ses!2ses!4v1601122334455!5m2!1ses!2ses"
-            frameborder="0"
-            allowfullscreen=""
-          ></iframe>
-          <hr class="red-line" />
-        </div>
-        <!-- End Google Maps -->
-
-        <div class="container" data-aos="fade">
-          <div class="row gy-5 gx-lg-5">
-            <div class="col-lg-4">
-              <div class="info">
-                <h3>Contáctanos</h3>
-                <p>
-                  Si deseas alguna consulta o agendar una cita, contáctanos.
-                  Nuestro equipo está disponible para ofrecerte la mejor
-                  asesoría.
-                </p>
-
-                <div class="info-item d-flex">
-                  <i class="bi bi-geo-alt flex-shrink-0"></i>
-                  <div>
-                    <h4>Dirección:</h4>
-                    <p>Plaça de la Font, 1, 43003 Tarragona</p>
+      <div class="container mt-5">
+        <h2 class="text-center mb-4">Mapa del Sitio</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <!-- Ajustar el ancho del acordeón -->
+            <div class="accordion" id="sitemapAccordion">
+              <!-- Sección Inicio -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <strong>Inicio</strong>
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#sitemapAccordion"
+                >
+                  <div class="accordion-body">
+                    <i class="bi bi-arrow-right"></i>
+                    <a href="index.html"><i>Inicio</i></a>
                   </div>
                 </div>
-                <!-- End Info Item -->
+              </div>
 
-                <div class="info-item d-flex">
-                  <i class="bi bi-envelope flex-shrink-0"></i>
-                  <div>
-                    <h4>Email:</h4>
-                    <p>ayi.abogados@gmail.com</p>
+              <!-- Sección Acerca -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <strong>Acerca de Nosotros</strong>
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#sitemapAccordion"
+                >
+                  <div class="accordion-body">
+                    <ul class="list-unstyled">
+                      <li>
+                        <i class="bi bi-arrow-right"></i>
+                        <a href="about.html#about"><i> ¿Quiénes Sómos?</i></a>
+                      </li>
+                      <br />
+                      <li>
+                        <i class="bi bi-arrow-right"></i>
+                        <a href="about.html#team"><i> Equipo</i></a>
+                      </li>
+                      <br />
+                      <li>
+                        <i class="bi bi-arrow-right"></i>
+                        <a href="about.html#skills"><i> Habilidades</i></a>
+                      </li>
+                      <br />
+                      <li>
+                        <i class="bi bi-arrow-right"></i>
+                        <a href="about.html#clients"><i> Clientes</i></a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
-                <!-- End Info Item -->
+              </div>
 
-                <div class="info-item d-flex">
-                  <i class="bi bi-phone flex-shrink-0"></i>
-                  <div>
-                    <h4>Llámanos:</h4>
-                    <p>+34 977 123 456 / +34 611 987 654</p>
+              <!-- Sección Servicios -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <strong>Servicios</strong>
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#sitemapAccordion"
+                >
+                  <div class="accordion-body">
+                    <ul class="list-unstyled">
+                      <li>
+                        <i class="bi bi-arrow-right"></i>
+                        <a href="services.html#penal"><i>Derecho Penal</i></a>
+                      </li>
+                      <br />
+                      <li>
+                        <i class="bi bi-arrow-right"></i>
+                        <a href="services.html#laboral"
+                          ><i>Derecho Laboral</i></a
+                        >
+                      </li>
+                      <br />
+                      <li>
+                        <i class="bi bi-arrow-right"></i>
+                        <a href="services.html#corporativo"
+                          ><i>Derecho Corporativo</i></a
+                        >
+                      </li>
+                      <br />
+                      <li>
+                        <i class="bi bi-arrow-right"></i>
+                        <a href="services.html#civil"
+                          ><i>Derecho Civil y Familiar</i></a
+                        >
+                      </li>
+                      <br />
+                      <li>
+                        <i class="bi bi-arrow-right"></i>
+                        <a href="services.html#mediacion"
+                          ><i>Resolución de Conflictos y Mediación</i></a
+                        >
+                      </li>
+                      <br />
+                      <li>
+                        <i class="bi bi-arrow-right"></i>
+                        <a href="services.html#extranjeria"
+                          ><i>Extranjería e Inmigración</i></a
+                        >
+                      </li>
+                    </ul>
                   </div>
                 </div>
-                <!-- End Info Item -->
+              </div>
+
+              <!-- Sección Testimonios -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    <strong>Testimonios</strong>
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#sitemapAccordion"
+                >
+                  <div class="accordion-body">
+                    <i class="bi bi-arrow-right"></i>
+                    <a href="testimonials.html"><i>Testimonios</i></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sección Contacto -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    <strong>Contacto</strong>
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#sitemapAccordion"
+                >
+                  <div class="accordion-body">
+                    <i class="bi bi-arrow-right"></i>
+                    <a href="contact.html"><i>Contacto</i></a>
+                  </div>
+                </div>
               </div>
             </div>
-
-            <div class="col-lg-8">
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Nombre:"
-                      required=""
-                    />
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Email:"
-                      required=""
-                    />
-                  </div>
-                </div>
-                <div class="form-group mt-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Asunto:"
-                    required=""
-                  />
-                </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    placeholder="Mensaje:"
-                    required=""
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Cargando</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Su mensaje ha sido enviado. Gracias!
-                  </div>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Enviar Mensaje</button>
-                </div>
-              </form>
-            </div>
-            <!-- End Contact Form -->
-
-            <br />
           </div>
         </div>
-      </section>
-      <!-- /Contact Section -->
+      </div>
     </main>
+    <br /><br />
 
     <hr class="red-line" />
 
